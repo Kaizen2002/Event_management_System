@@ -10,21 +10,21 @@ const Navbar = () => {
 
   return (
     <div className="NavContainer relative">
-      <div className={`flex w-full bg-[#ebe7d9] h-14 m-auto justify-between items-center px-16 ${menu ? 'hidden' : 'flex'}`}>
+      <div className={`flex w-full bg-[#ebe7d9] h-16 m-auto justify-between items-center px-16 ${menu ? 'hidden' : 'flex'}`}>
 
               {/* -------------------------------logo------------------------------- */}
               
         <div className="logo text-[28px] text-[#254336] font-bold">
           <Link to="/"><h2 className="hover:scale-110  transition ease-in-out duration-300">evento</h2></Link>
-        </div>
+        </div> 
                 {/* ----------------- nav for bigger screen ---------------------------  */}
 
         <div className="hidden md:flex Navlinks text-[#6B8A7A] gap-10">
-          <Link className="hover:text-[#254336] hover:scale-110  transition ease-in-out duration-300" to="/">Home</Link>
-          <Link className="hover:text-[#254336] hover:scale-110 transition ease-in-out duration-300" to="/about">About</Link>
-          <Link className="hover:text-[#254336] hover:scale-110 transition ease-in-out duration-300" to="/event">Events</Link>
-          <Link className="hover:text-[#254336] hover:scale-110 transition ease-in-out duration-300" to="/contact">Contact</Link>
-          <Link className="hover:text-[#254336] hover:scale-110 transition ease-in-out duration-300" to="/login">Login</Link>
+          <Link className="hover:text-[#254336] text-[18px] hover:scale-110  transition ease-in-out duration-300" to="/">Home</Link>
+          <Link className="hover:text-[#254336] text-[18px] hover:scale-110 transition ease-in-out duration-300" to="/about">About</Link>
+          <Link className="hover:text-[#254336] text-[18px] hover:scale-110 transition ease-in-out duration-300" to="/event">Events</Link>
+          <Link className="hover:text-[#254336] text-[18px] hover:scale-110 transition ease-in-out duration-300" to="/contact">Contact</Link>
+          <Link className="hover:text-[#254336] text-[18px] hover:scale-110 transition ease-in-out duration-300" to="/login">Login</Link>
         </div>
 
         <div className="md:hidden">
