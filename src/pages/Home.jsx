@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSpring, animated } from '@react-spring/web';
 import 'tailwindcss/tailwind.css';
+// import Footer from '../components/Footer';
 
 const Home = () => {
   const fadeInLeft = useSpring({
@@ -33,6 +34,8 @@ const Home = () => {
           <img src="src/assets/eventbg.png" alt="Event Background" className="w-full h-auto rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105"/>
         </animated.div>
       </div>
+
+      {/* <Footer/> */}
     </div>
   );
 }

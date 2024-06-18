@@ -10,7 +10,8 @@ const About = () => {
   });
 
   return (
-    <div className="about-container bg-[#efece1] min-h-screen flex items-center justify-center py-10">
+    <div className=' '>
+      <div className="about-container bg-[#efece1] min-h-screen flex items-center justify-center py-10">
       <div className="about-content w-full max-w-5xl p-4">
         <animated.div style={fadeIn} className="text-content p-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl text-center md:text-left pb-5 font-extrabold tracking-tight text-[#1A4D2E]">
@@ -38,6 +39,7 @@ const About = () => {
           </ul>
         </animated.div>
       </div>
+    </div>
     </div>
   );
 }
